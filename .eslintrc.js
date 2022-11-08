@@ -2,14 +2,14 @@ module.exports = {
   env: {
     node: true,
     browser: true,
-    es2021: true
+    es2021: true,
   },
   root: true,
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     '@react-native-community',
-    'plugin:prettier/recommended'
+    'plugin:prettier/recommended',
   ],
   rules: {
     'react-native/no-inline-styles': 0,
@@ -22,10 +22,10 @@ module.exports = {
     'react-hooks/rules-of-hooks': 0,
     '@typescript-eslint/no-empty-function': 1,
     '@typescript-eslint/no-var-requires': 0,
-    '@typescript-eslint/explicit-module-boundary-types': 0
+    '@typescript-eslint/explicit-module-boundary-types': 0,
   },
   globals: {
     est: true,
-    eastmoney: true
-  }
-}
+    eastmoney: true,
+  },
+};

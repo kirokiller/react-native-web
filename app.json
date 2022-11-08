@@ -1,4 +1,6 @@
 {
   "name": "rn_web",
-  "displayName": "rn_web"
+  "displayName": "rn_web",
+  "h5SubPath": "rn_web",
+  "title": "rn web 三端同构"
 }
